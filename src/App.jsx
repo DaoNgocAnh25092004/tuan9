@@ -1,4 +1,5 @@
 import CounterWithRedux from "./Components/CounterWithRedux";
+import CounterWithReduxToolkit from "./Components/CounterWithReduxToolkit";
 import CounterWithUseReducer from "./Components/CounterWithUseReducer";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       </h1>
       <CounterWithUseReducer />
       <CounterWithRedux />
+      <CounterWithReduxToolkit />
     </div>
   );
 }
