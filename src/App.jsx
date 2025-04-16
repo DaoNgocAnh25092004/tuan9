@@ -8,6 +8,7 @@ import CounterWithUseReducer from "./Components/CounterWithUseReducer";
 import TodoApp from "./Components/TodoApp";
 import ThemeToggle from "./Components/ThemeToggle";
 import ShoppingCart from "./Components/ShoppingCart";
+import AuthApp from "./Components/AuthApp";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <TodoApp />
         <ThemeToggle />
         <ShoppingCart />
+        <AuthApp />
       </div>
     </Provider>
   );
