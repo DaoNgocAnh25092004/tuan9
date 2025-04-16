@@ -7,6 +7,7 @@ import CounterWithReduxToolkit from "./Components/CounterWithReduxToolkit";
 import CounterWithUseReducer from "./Components/CounterWithUseReducer";
 import TodoApp from "./Components/TodoApp";
 import ThemeToggle from "./Components/ThemeToggle";
+import ShoppingCart from "./Components/ShoppingCart";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <CounterApp />
         <TodoApp />
         <ThemeToggle />
+        <ShoppingCart />
       </div>
     </Provider>
   );
