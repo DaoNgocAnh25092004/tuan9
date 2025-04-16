@@ -5,6 +5,7 @@ import CounterApp from "./Components/CounterApp";
 import CounterWithRedux from "./Components/CounterWithRedux";
 import CounterWithReduxToolkit from "./Components/CounterWithReduxToolkit";
 import CounterWithUseReducer from "./Components/CounterWithUseReducer";
+import TodoApp from "./Components/TodoApp";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           Bài tập Redux Toolkit
         </h1>
         <CounterApp />
+        <TodoApp />
       </div>
     </Provider>
   );
